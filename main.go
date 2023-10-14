@@ -22,7 +22,7 @@ func main() {
 	files := []string{
 		"dockerfile",
 		"docker-compose.yml",
-		"makefile",
+		"Makefile",
 	}
 
 	currentDir, err := os.Getwd()
