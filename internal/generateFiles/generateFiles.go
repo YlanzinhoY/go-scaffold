@@ -29,10 +29,8 @@ func GenerateFiles(dirs, files []string) error {
 
 		if err != nil {
 			fmt.Printf("Erro ao criar o arquivo %s", createFile)
-			return err
 		} else {
 			fmt.Printf("Arquivo %s criado com scuesso!\n", createFile)
-			return nil
 		}
 
 	}
